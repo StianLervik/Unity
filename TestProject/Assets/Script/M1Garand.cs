@@ -7,13 +7,11 @@ public class M1Garand : weapon {
 	public GameObject TotalAmmo;
 
 	private string clip;
-	private string ammo;
 	private bool m1g;
 
 	// Use this for initialization
 	void Start () {
 		clip = Mag.GetComponent<InputField> ().text;
-		ammo = TotalAmmo.GetComponent<InputField> ().text;
 	}
 	
 	// Update is called once per frame
