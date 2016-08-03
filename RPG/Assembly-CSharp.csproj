@@ -45,15 +45,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Arrow.cs" />
+     <Compile Include="Assets\Scripts\BowPower.cs" />
      <Compile Include="Assets\Scripts\FireBallScript.cs" />
      <Compile Include="Assets\Scripts\HUD.cs" />
      <Compile Include="Assets\Scripts\Player\HeisScript.cs" />
      <Compile Include="Assets\Scripts\Player\HeisScript1.cs" />
+     <Compile Include="Assets\Scripts\Player\Mana.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerCollitions.cs" />
      <Compile Include="Assets\Scripts\Player\mouseLook.cs" />
      <Compile Include="Assets\Scripts\Player\playerMovement.cs" />
      <Compile Include="Assets\Scripts\Player\weapon.cs" />
-     <Compile Include="Assets\SpellWindow.cs" />
+     <Compile Include="Assets\Scripts\SpellWindow.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
